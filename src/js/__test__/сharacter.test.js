@@ -1,6 +1,6 @@
 import Character from '../сharacter';
 
-test('getting id/name/icon/description properties', () => {
+test('получение аттаки/защиты по типу', () => {
   const person = new Character('1234567890', 'Zombie');
   expect(person).toEqual({
     name: '1234567890',
